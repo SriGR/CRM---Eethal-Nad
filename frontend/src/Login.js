@@ -24,8 +24,9 @@ const Login = () => {
             // const data = await response.json();
             // if (data.token) {
             //     localStorage.setItem('token', data.token);
+            // sessionStorage.setItem('isAuthenticated', 'true');
             //     alert('Login successful');
-            //     window.location.href = '/dashboard';  
+            //     window.location.href = '/dashboard';
             // } else {
             //     throw new Error('Unexpected error during login');
             // }
